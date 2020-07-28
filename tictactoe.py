@@ -63,7 +63,7 @@ def main():
 
        if status == p1.name:
            game = False
-           print(p1.name, “has won")
+           print(p1.name, "has won")
 
        else:
            p2.makeMove(board)
@@ -71,6 +71,6 @@ def main():
 
            if status == p2.name:
                game = False
-               print(p2.name, “has won")
+               print(p2.name, "has won")
 
 main()
